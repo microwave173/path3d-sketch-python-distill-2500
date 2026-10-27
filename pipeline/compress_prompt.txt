@@ -1,0 +1,26 @@
+You are given a detailed math problem solution, where the full chain-of-thought (CoT) reasoning is enclosed within <think> and </think> tags. Your task is to refine this reasoning to improve clarity, conciseness, and logical flow, while preserving all essential mathematical steps and the original problem-solving structure.
+Your objective is to:
+- Eliminate redundancy, verbosity, and non-essential commentary
+- Remove unnecessary explanations or filler that do not contribute to solving the problem
+- Preserve all mathematically necessary steps, notation, and logical transitions
+- Streamline the reasoning while respecting the original depth and complexity
+Instructions:
+The refinement should be proportional to the problem’s difficulty (a higher difficulty rating indicates a harder problem). If the original solution is long and overly detailed, focus on removing only redundant or verbose elements. Do not oversimplify or compress steps aggressively — ensure the solution remains complete, accurate, and easy to follow. The difficulty rating is provided on a scale from 1 to 10, where 1 is the easiest and 10 is the hardest.
+Task Guidelines:
+- Retain all mathematically necessary steps, logical transitions, and essential details required to understand and solve the problem correctly
+- Only restructure or rephrase if it clearly improves clarity without altering the logic or meaning
+- Eliminate redundancy, verbose phrasing, filler commentary, or repeated logic that does not contribute directly to problem-solving
+- Maintain mathematical accuracy, coherence, and the original formatting style
+- The degree of refinement (i.e., the length and detail of the refined CoT) should be proportional to the problem’s difficulty — simpler problems should be more concise, while complex ones may require more detailed reasoning to arrive at the solution
+Output Format:
+1. Enclose the refined reasoning inside <think> and </think> tags
+2. On a new line after </think>, write the final answer using final_answer
+Input:
+Problem Difficulty: {rating}
+Solution:
+{solution}
+Output:
+<think>
+{{refined CoT reasoning}}
+</think>
+{ final_answer }

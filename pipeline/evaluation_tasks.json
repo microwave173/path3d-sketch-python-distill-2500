@@ -1,0 +1,87 @@
+[
+  {
+    "id": "atom_160e5d249407",
+    "prompt": "A ball rolls down a short ramp and bounces off a block.",
+    "prompt_en": "A ball rolls down a short ramp and bounces off a block.",
+    "prompt_zh": "一个小球滚下短斜坡，撞到木块后弹开。",
+    "category": "physics_geometry",
+    "category_zh": "简单物理与几何运动",
+    "theme": "小球滚下短斜坡",
+    "theme_id": "retained_physics_5415b5e0",
+    "motion_family": "collision",
+    "dim": 3,
+    "source": "retained_old4000",
+    "source_id": "atom_160e5d249407",
+    "source_category": "physics",
+    "source_file": "../sketch3d_atomic5000_v1/tasks.json",
+    "source_sha256": "745879f5369add5986c55d084dd8827d46b274b93687723535a283d16f7d01ac",
+    "moving_entities": 1,
+    "prompt_review": {
+      "i": 33,
+      "accept": true,
+      "reason": "Ball rolls down ramp, bounces off block; simple collision."
+    },
+    "review_request": "requests/review_old_006",
+    "split": "validation",
+    "final_editor_request": "final_edit/079"
+  },
+  {
+    "prompt_en": "A cat walks steadily across open ground, tail lifted and swaying.",
+    "prompt_zh": "一只猫在空地上平稳行走，尾巴抬起并摆动。",
+    "animate_count": 1,
+    "entity_count": 1,
+    "spatial_feature": "Side-on feline silhouette with four articulated legs and lifted tail, giving clear depth in stride and body length.",
+    "category": "animal",
+    "category_zh": "动物动作与交互",
+    "theme": "猫行走",
+    "theme_id": "animal_cat_walk",
+    "motion_family": "cyclic",
+    "source": "deepseek_new_task",
+    "generation_request": "requests/gen_animal_cat_walk_r0",
+    "review_request": "requests/review_animal_cat_walk_r0",
+    "prompt_review": {
+      "i": 0,
+      "accept": true,
+      "reason": "Single cat walking with lifted swaying tail; clear continuous gait."
+    },
+    "quality_review": {
+      "i": 0,
+      "accept": true,
+      "naturalness": 2,
+      "spatial_readability": 2,
+      "reason": "Continuous steady walk with simple tail motion; clear silhouette and readable locomotion."
+    },
+    "quality_review_request": "quality/animal_cat_walk",
+    "id": "gen3d_e135e17cda16",
+    "prompt": "A cat walks steadily across open ground, tail lifted and swaying.",
+    "dim": 3,
+    "split": "validation",
+    "final_editor_request": "final_edit/034"
+  },
+  {
+    "id": "atom_693e5f9ea606",
+    "prompt": "A person pushes a crate sideways across a wide platform.",
+    "prompt_en": "A person pushes a crate sideways across a wide platform.",
+    "prompt_zh": "一个人把木箱横向推过一个宽平台。",
+    "category": "human",
+    "category_zh": "人物动作与交互",
+    "theme": "一个人推箱子",
+    "theme_id": "retained_human_b93ad26f",
+    "motion_family": "push",
+    "dim": 3,
+    "source": "retained_old4000",
+    "source_id": "atom_693e5f9ea606",
+    "source_category": "human",
+    "source_file": "../sketch3d_atomic5000_v1/tasks.json",
+    "source_sha256": "745879f5369add5986c55d084dd8827d46b274b93687723535a283d16f7d01ac",
+    "moving_entities": 2,
+    "prompt_review": {
+      "i": 50,
+      "accept": true,
+      "reason": "Pushing crate sideways across platform is simple travel with clear depth."
+    },
+    "review_request": "requests/review_old_042",
+    "split": "validation",
+    "final_editor_request": "final_edit/020"
+  }
+]

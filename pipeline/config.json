@@ -1,0 +1,17 @@
+{
+  "total_tasks": 2500,
+  "task_concurrency": 300,
+  "api_concurrency": 300,
+  "compress_concurrency": 300,
+  "model": "deepseek-flash",
+  "generation_effort": "low",
+  "compression_effort": "low",
+  "compression_method": "Less is More Figure 5; difficulty=5",
+  "train_after_data": false,
+  "seed": 20261027,
+  "recovery_task_ids": [],
+  "recovery_tool_budget": 6,
+  "recovery_max_turns": 16,
+  "evaluation_dir": "evaluation3",
+  "evaluation_count": 3
+}

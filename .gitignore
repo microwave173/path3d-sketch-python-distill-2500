@@ -1,0 +1,16 @@
+**/__pycache__/
+*.pyc
+.env
+.venv/
+**/*.lock
+training/train.jsonl
+training/validation.jsonl
+training/training/
+training/smoke/
+pipeline/results/
+pipeline/compression/
+pipeline/rejected_stages/
+pipeline/*state.json
+*.pt
+*.safetensors
+pipeline/tasks.json

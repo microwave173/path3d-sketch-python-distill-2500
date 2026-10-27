@@ -1,0 +1,26 @@
+{
+  "seed": 20261026,
+  "epochs": 1,
+  "micro_batch": 2,
+  "gradient_accumulation": 8,
+  "world_size": 4,
+  "max_micro_tokens": 12000,
+  "max_sequence_tokens": 32768,
+  "learning_rate": 0.0001,
+  "lora_rank": 64,
+  "lora_alpha": 128,
+  "checkpoint_every_steps": 50,
+  "validation_monitor_rows": 40,
+  "pad_to_multiple_of": 256,
+  "keep_epoch_checkpoints": [
+    1
+  ],
+  "epoch_probe_epochs": [],
+  "compression_limit": null,
+  "train_fraction": 0.95,
+  "base_model": "Qwen/Qwen3.5-9B",
+  "initialization": "base_model_fresh_lora",
+  "teacher_reasoning_effort": "low",
+  "compression_method": "paper Figure 5 fixed difficulty 5, no explicit length cap",
+  "require_resume_checkpoint": false
+}

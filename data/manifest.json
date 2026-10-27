@@ -1,0 +1,257 @@
+{
+  "task_count": 2500,
+  "task_splits": {
+    "train": 2375,
+    "validation": 125
+  },
+  "categories": {
+    "human": 625,
+    "vehicle": 375,
+    "everyday_deformable": 375,
+    "physics_geometry": 500,
+    "animal": 625
+  },
+  "rows": {
+    "round1_train": 17395,
+    "round1_validation": 895,
+    "round2_train": 25897,
+    "round2_validation": 1357
+  },
+  "files": [
+    {
+      "path": "train-round1-000.jsonl.gz",
+      "size_bytes": 1738051,
+      "sha256": "31c197835f3e77b1c082198f3793371fc9e7559cd820588b0507843461a186e7"
+    },
+    {
+      "path": "train-round1-001.jsonl.gz",
+      "size_bytes": 2042048,
+      "sha256": "344f89e868faf0a20a140c2063971fe5281bc90625e25dbc2ed46a15b9e630f8"
+    },
+    {
+      "path": "train-round1-002.jsonl.gz",
+      "size_bytes": 1822327,
+      "sha256": "0bf91498e26d927e763d57dec1e4ff8491b09b85a1e6cf9d883317f0b99c3b9f"
+    },
+    {
+      "path": "train-round1-003.jsonl.gz",
+      "size_bytes": 1689779,
+      "sha256": "75737f822031d6b4084b28c74765167209345aa9622ebeadcf415eea35fbe1e8"
+    },
+    {
+      "path": "train-round1-004.jsonl.gz",
+      "size_bytes": 1652357,
+      "sha256": "d0d436f004395080e36f5577f4c31d8cc336198840c36a5468269581ac121c8d"
+    },
+    {
+      "path": "train-round1-005.jsonl.gz",
+      "size_bytes": 1901218,
+      "sha256": "30fc34a240257c9fe01f6be452b501e492fecc5ca97a2256903b6ad84158363e"
+    },
+    {
+      "path": "train-round1-006.jsonl.gz",
+      "size_bytes": 1775924,
+      "sha256": "94e957b41d4381afff09d661765ef6c90197ff644975d826e60a48c359c6ef57"
+    },
+    {
+      "path": "train-round1-007.jsonl.gz",
+      "size_bytes": 1796405,
+      "sha256": "6046f40105e0c5dddd71007adec62cfdc8ae4e571e2efb49704b5674a5fe2777"
+    },
+    {
+      "path": "train-round1-008.jsonl.gz",
+      "size_bytes": 1881437,
+      "sha256": "af86fbf82f50cbfdda8e9e14f38fc33f4ed49fd872062e5fe712c470cc92c672"
+    },
+    {
+      "path": "train-round1-009.jsonl.gz",
+      "size_bytes": 1760803,
+      "sha256": "7e32c5bde28eca61331c8c5fbbc0f1f8183b6f1de23966c626c69416650edf99"
+    },
+    {
+      "path": "train-round1-010.jsonl.gz",
+      "size_bytes": 1759845,
+      "sha256": "6e6f271b62c89d9f28557ce223b6b78463a5a34de617c52903adf37cf30dffdc"
+    },
+    {
+      "path": "train-round1-011.jsonl.gz",
+      "size_bytes": 1779238,
+      "sha256": "550375ea37383894669047a8e5a0ace3576fa862401b39ee790f87d47d395312"
+    },
+    {
+      "path": "train-round1-012.jsonl.gz",
+      "size_bytes": 1874563,
+      "sha256": "e4203f9ea6f1f48ca0f55bf781023789d1bfa274a4b2a1688f3ff61447c4a1d7"
+    },
+    {
+      "path": "train-round1-013.jsonl.gz",
+      "size_bytes": 1746099,
+      "sha256": "fe107d2d0c85d68e6a678a493a80bd063837c5cfb1dd95d020c53cab4fe8ae72"
+    },
+    {
+      "path": "train-round1-014.jsonl.gz",
+      "size_bytes": 2005166,
+      "sha256": "1a84cd0b5c531746b348d5ea8f6604a7f46823cf5cde8f859c08844c3a49c2cc"
+    },
+    {
+      "path": "train-round1-015.jsonl.gz",
+      "size_bytes": 1869126,
+      "sha256": "abe35016f57f26548f9f0fc1ca394d84026c677360177a696355842af12acf0f"
+    },
+    {
+      "path": "train-round1-016.jsonl.gz",
+      "size_bytes": 1948174,
+      "sha256": "4c6f26c4d600d3296ada10778f59d4e421ada9854541cc04cd97150a194cd539"
+    },
+    {
+      "path": "train-round1-017.jsonl.gz",
+      "size_bytes": 756477,
+      "sha256": "8073dba5ced276277628af5d7f3c4e4e5ea1775e62f0f9f4262177e1a1243ec1"
+    },
+    {
+      "path": "validation-round1-000.jsonl.gz",
+      "size_bytes": 1615971,
+      "sha256": "4c1d221aa53f62eb61de6f96294a097df8f98ac49f2971d0fc98f0dacb00c599"
+    },
+    {
+      "path": "train-round2-000.jsonl.gz",
+      "size_bytes": 1870656,
+      "sha256": "fd54eedb090c07fae24f26828fe7b562f02f92ad44ed035fe25bf05b73ae1edb"
+    },
+    {
+      "path": "train-round2-001.jsonl.gz",
+      "size_bytes": 1740053,
+      "sha256": "e5a4559df4004050b567591891d5eff07333375477bafa9113af92e456459ed4"
+    },
+    {
+      "path": "train-round2-002.jsonl.gz",
+      "size_bytes": 1805660,
+      "sha256": "0740cefa300daefbd200b1c54654f0962ee3c67c8c778c42f31d317491ce747e"
+    },
+    {
+      "path": "train-round2-003.jsonl.gz",
+      "size_bytes": 1702148,
+      "sha256": "4f3175a1b298c0d480fb6a8b5b2eb6ee00aad0ad4696c2675e4ff774d660b065"
+    },
+    {
+      "path": "train-round2-004.jsonl.gz",
+      "size_bytes": 1846888,
+      "sha256": "3cd8af600a314f4682bed9b3bb6ce294185732dca0f0c8138ef4fb9de7089126"
+    },
+    {
+      "path": "train-round2-005.jsonl.gz",
+      "size_bytes": 1850266,
+      "sha256": "03e4ccce0611f93fd0d036286a11a62897303bba38351e289f445a2b4c99841a"
+    },
+    {
+      "path": "train-round2-006.jsonl.gz",
+      "size_bytes": 1734977,
+      "sha256": "480492e7283478eaa183206c97b7e99ef32f84831e1faab8d86b1d1e602e1d6e"
+    },
+    {
+      "path": "train-round2-007.jsonl.gz",
+      "size_bytes": 1677503,
+      "sha256": "ab526bedddd027d67a18054e667db35e0772cf207a8868809f66cf8a3a52be47"
+    },
+    {
+      "path": "train-round2-008.jsonl.gz",
+      "size_bytes": 2039142,
+      "sha256": "f00a8e928b97e82f05b51f6f5f9b0c017181285824737b11e8df005d5c42f5e4"
+    },
+    {
+      "path": "train-round2-009.jsonl.gz",
+      "size_bytes": 1747950,
+      "sha256": "d57ec4da00e99372690ca5a89c424ce28aed1185e7deea7010eaa72b092f65c5"
+    },
+    {
+      "path": "train-round2-010.jsonl.gz",
+      "size_bytes": 1922227,
+      "sha256": "47c90d6e9834e34d7d3315343b5253bffb143979d8c347ab288b2af03283e795"
+    },
+    {
+      "path": "train-round2-011.jsonl.gz",
+      "size_bytes": 1675044,
+      "sha256": "fdc2c6c9894e1c2733839fe99ed97323868b25a318242835658b8ef811301a68"
+    },
+    {
+      "path": "train-round2-012.jsonl.gz",
+      "size_bytes": 1761529,
+      "sha256": "ac284e0d3053395f20862454ef33ac01a0c962d334ea0d02722246c39ee75252"
+    },
+    {
+      "path": "train-round2-013.jsonl.gz",
+      "size_bytes": 1902970,
+      "sha256": "f5337d7dc4c2aeb75c6bf037539bbca172d9c17ebd5fa4a51c694fdcc0b81845"
+    },
+    {
+      "path": "train-round2-014.jsonl.gz",
+      "size_bytes": 1689838,
+      "sha256": "e6f395759e0a872fc346b3884fbf0ad60f533e8add6ddbdf9b2c20251e037642"
+    },
+    {
+      "path": "train-round2-015.jsonl.gz",
+      "size_bytes": 1922271,
+      "sha256": "47e66577cc6cebd36f812825d0bdb493188315959a123297796b84da84d4baf2"
+    },
+    {
+      "path": "train-round2-016.jsonl.gz",
+      "size_bytes": 1817194,
+      "sha256": "32ab537f9ade27bf256b89d0d2a45eca03c6573d9b72fabeda38bdbd3ef17f10"
+    },
+    {
+      "path": "train-round2-017.jsonl.gz",
+      "size_bytes": 1887958,
+      "sha256": "2479275e907017b051757c35e019cba54c62d11a6e02577b217e73d8185fc7ed"
+    },
+    {
+      "path": "train-round2-018.jsonl.gz",
+      "size_bytes": 1761170,
+      "sha256": "9c0c32fb8f6bd7a446728fa202fa8c1738bea66ccb71bcbada550c17b5844174"
+    },
+    {
+      "path": "train-round2-019.jsonl.gz",
+      "size_bytes": 1778691,
+      "sha256": "abe2de3ed09b461ca13eb61fdfdb5bd3f062aadbb6226c2daf49aef427de0aee"
+    },
+    {
+      "path": "train-round2-020.jsonl.gz",
+      "size_bytes": 1691363,
+      "sha256": "df37a636211d04bdb270d82509e4baef4831c69e2e73912974a5d149d79755d7"
+    },
+    {
+      "path": "train-round2-021.jsonl.gz",
+      "size_bytes": 1847884,
+      "sha256": "462d32ec80b55191935f7e2c01d59f03e33f3584f505816ef1a9b9943d9eb0be"
+    },
+    {
+      "path": "train-round2-022.jsonl.gz",
+      "size_bytes": 1925741,
+      "sha256": "80835db28cf2545802bfaa776abe83fb5b1ad842dd651fc9ee65ce1f0ee1be9d"
+    },
+    {
+      "path": "train-round2-023.jsonl.gz",
+      "size_bytes": 1893443,
+      "sha256": "b1daeff01431bffc03f14e2ba6d9e2269b5838ac0b110c25dde927fb53c561ba"
+    },
+    {
+      "path": "train-round2-024.jsonl.gz",
+      "size_bytes": 1671397,
+      "sha256": "7851a117b9c521a97132b389c3cbb38336a1720adb1c949c1f3dd44a067387fd"
+    },
+    {
+      "path": "train-round2-025.jsonl.gz",
+      "size_bytes": 1572830,
+      "sha256": "e67c8f19536689afd5a4a99899881588ffb835c595a86863d0bc45ce77092665"
+    },
+    {
+      "path": "validation-round2-000.jsonl.gz",
+      "size_bytes": 1626145,
+      "sha256": "2363e3a8b522817ed3c65f6bf32d2d772e56ac412ff086a18cc702232f4bbcb0"
+    },
+    {
+      "path": "validation-round2-001.jsonl.gz",
+      "size_bytes": 677890,
+      "sha256": "d31fb9fca0d32a3b6d40b4b91a6c955b19897f5661881685c6c1acb0baeacae5"
+    }
+  ]
+}

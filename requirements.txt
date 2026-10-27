@@ -1,0 +1,8 @@
+torch==2.8.0
+transformers==5.8.0
+peft==0.18.1
+safetensors==0.8.0
+liger-kernel
+httpx
+numpy
+Pillow
